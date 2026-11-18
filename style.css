@@ -27,18 +27,18 @@ body {
 
 h1 {
     color: #E8C982;
-    font-size: 65px;
+    font-size: 45px;
     letter-spacing: 6px;
     margin-bottom: 12px;
 }
 
 .tagline {
     color: #D5D0BC;
-    font-size: 27px;
+    font-size: 22px;
 }
 
 .joker-card {
-    width: 250px;
+    width: 160px;
     height: auto;
     display: block;
     margin: 30px auto;
@@ -50,7 +50,7 @@ h1 {
     margin: 25px auto;
     color: #E0DDCF;
     line-height: 1.7;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 button {
@@ -147,7 +147,7 @@ button:active {
 
 .reveal-text {
     color: #E8C982;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     letter-spacing: 2px;
     margin-bottom: 20px;
@@ -156,7 +156,7 @@ button:active {
 #resultScreen h2 {
     color: #F5F0DF;
     margin-bottom: 20px;
-    font-size: 32px;
+    font-size: 22px;
 }
 
 #resultCard {
@@ -172,7 +172,7 @@ button:active {
 .result-message {
     color: #D5D0BC;
     margin: 20px 0;
-    font-size: 28px;
+    font-size: 20px;
 }
 
 #restartBtn {
@@ -180,7 +180,7 @@ button:active {
 }
 
 .result-playing-card {
-    width: 270px;
+    width: 190px;
     height: auto;
     display: block;
     margin: 20px auto;
