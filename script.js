@@ -90,6 +90,8 @@ function showQuestion() {
 
         let cardImage = document.createElement("img");
 
+        cardImage.loading = "lazy";
+        cardImage.decoding = "async";
         cardImage.src = card.image;
         cardImage.alt = card.value + "of" + suitNames[card.suit];
 
