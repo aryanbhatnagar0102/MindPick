@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MINDPICK - Card Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div id="homeScreen">
+            <h1>MINDPICK</h1>
+            <p class="tagline">You think it , I'll find it.</p>
+
+            <img
+               src="images/png cards/card fronts/joker/black joker.png"
+               alt="Joker playing card"
+               class="joker-card"
+               >
+
+            <p class="description">
+                Think of any card from a standard deck of 52 cards and 
+                Answer few questions and let MINDPICK read your mind!
+            </p>
+
+            <button id="startBtn">START GAME</button>
+        </div>
+
+        <div id="gameScreen" style="display: none;">
+            <h2 id="questionTitle">Question 1</h2>
+            <p>Is your card present below?</p>
+
+            <div class="progress-container">
+                <div id="progressBar"></div>
+            </div>
+
+            <div id="cardGrid"></div>
+
+            <div class="buttons">
+                <button id="yesBtn">YES</button>
+                <button id="noBtn">NO</button>
+            </div>
+        </div>
+
+        <div id="resultScreen" style="display:none;">
+
+            <p class="reveal-text">Gotchu!</p>
+
+            <p class="result-message">
+                I found your card!
+            </p>
+
+            <h2>Your card was</h2>
+
+            <div id="resultCard"></div>
+
+            
+
+            <button id="restartBtn">Play again</button>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
